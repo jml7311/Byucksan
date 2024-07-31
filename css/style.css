@@ -196,6 +196,9 @@ background-color: rgba(255, 255, 255, 1);}
     .visualSlide .swiper-slide.tree .textbox .small {font-size: 20px;margin: 150px 0 0 90px;}
 
 
+    #section1 .img_box .big_img .text::before {display: none;}
+    #section1 .img_box .big_img .text::after {display: none;}
+    
     #section1 .img_box {flex-direction: column;}
     #section1 .img_box .big_img {width: auto;}
     #section1 .img_box .small_img {width: auto;}
@@ -224,8 +227,16 @@ background-color: rgba(255, 255, 255, 1);}
     
     header nav .gnb li {font-size: 18px }
     header nav .gnb li a {padding: 10px 1.5vw;}
+
+    
     #section1 .img_box .small_img li {width: 40%;}
+
+
     #section3 .centerbox1200 .content li figure.thumb {width: 80px;height: 80px;flex-shrink: 0;margin-right: 20px;}
+
+    #section3 .centerbox1200 .content li article h3{font-size: 16px;}
+
+    #section3 .centerbox1200 .content li::before {display: none;}
 }
 
 
@@ -245,19 +256,28 @@ background-color: rgba(255, 255, 255, 1);}
     #section2 {padding: 16.9vw 0;}
     #section3 {padding: 16.9vw 0;}
 
+
+    #section1 .img_box .big_img .text {width: 70%;}
+
+
     #section2 .centerbox1200 {flex-direction: column;}
     #section2 content {flex-basis: auto;};
     #section2 .centerbox1200 .textbox {flex-basis: 0;}
     #section2 .centerbox1200 .textbox em {font-size: 50px;}
     #section2 .centerbox1200 .swiper {margin-left: 0;margin-right: 0;}
     #section2 h2 {font-size: 30px;}
+    #section2 .content li a img {height: auto;}
+
+
+    #section2 .content {flex-basis:auto;}
+
+
     #section3 .centerbox1200 h2 {font-size: 30px;}
     #section3 .centerbox1200 .content li .num {align-items: flex-start;}
     #section3 .centerbox1200 .content li .date {display: none;}
     #section3 .centerbox1200 .content li .name {display: none;}
-    #section2 .content li a img {height: auto;}
 
-
+    #section3 .centerbox1200 .content li article h3{font-size: 14px;}
 }
 
 
@@ -279,6 +299,16 @@ background-color: rgba(255, 255, 255, 1);}
     .visualSlide .swiper-slide.tree .textbox .big::before {display: none;}
     .visualSlide .swiper-slide.tree .textbox .big span.num {display: none;}
     .visualSlide .swiper-slide.tree .textbox .big p.mini {display: none;}
+
+
+    #section1 .img_box .big_img .text {font-size: 20px;width: 70%;}
+    #section1 .img_box .big_img .text strong {width: 100px;left: 0;}
+    #section1 .img_box .big_img .text strong::before {width: 100px;}
+    #section1 .img_box .big_img .text .date {width: 100px;font-size: 14px;} 
+
+    #section1 .img_box .small_img li h3 {font-size: 14px;}
+    #section1 .img_box .small_img li .date {font-size: 12px;}
+    
 }
 
 
